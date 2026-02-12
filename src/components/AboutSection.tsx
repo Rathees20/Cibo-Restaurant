@@ -1,15 +1,23 @@
 import { motion } from "framer-motion";
 import aboutBg from "@/assets/about-bg.jpg";
+import g1 from "@/assets/g1-1.jpeg";
+import g2 from "@/assets/g1-2.jpeg";
+import g3 from "@/assets/g1-3.jpeg";
+import g4 from "@/assets/g1-4.jpeg";
+import g5 from "@/assets/g1-5.jpeg";
+import g6 from "@/assets/g1-6.jpeg";
+import g7 from "@/assets/g1-7.jpeg";
+import g8 from "@/assets/g1-8.jpeg";
 
 const gutImages = [
-  "/src/assets/g1 (1).jpeg",
-  "/src/assets/g1 (2).jpeg",
-  "/src/assets/g1 (3).jpeg",
-  "/src/assets/g1 (4).jpeg",
-  "/src/assets/g1 (5).jpeg",
-  "/src/assets/g1 (6).jpeg",  
-  "/src/assets/g1 (7).jpeg",
-  "/src/assets/g1(8).jpeg",
+  g1,
+  g2,
+  g3,
+  g4,
+  g5,
+  g6,
+  g7,
+  g8,
 ];
 
 const AboutSection = () => {

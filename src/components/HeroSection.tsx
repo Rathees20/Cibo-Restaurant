@@ -3,12 +3,20 @@ import { motion } from "framer-motion";
 
 // Use direct paths so we don't depend on TS/Vite image module resolution.
 // Make sure these files exist at these paths in your project.
+import hero1 from "@/assets/hero1-1.jpg";
+import hero2 from "@/assets/hero1-2.jpg";
+import hero3 from "@/assets/hero1-3.jpg";
+import hero4 from "@/assets/hero1-4.jpg";
+import hero5 from "@/assets/hero1-5.jpg";
+
+// Use direct paths so we don't depend on TS/Vite image module resolution.
+// Make sure these files exist at these paths in your project.
 const images = [
-  "/src/assets/hero1 (1).JPG",
-  "/src/assets/hero1 (2).JPG",
-  "/src/assets/hero1 (3).JPG",
-  "/src/assets/hero1 (4).JPG",
-  "/src/assets/hero1 (5).JPG",
+  hero1,
+  hero2,
+  hero3,
+  hero4,
+  hero5,
 ];
 
 const HeroSection = () => {
