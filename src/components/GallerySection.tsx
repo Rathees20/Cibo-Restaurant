@@ -7,7 +7,7 @@ import dish5 from "@/assets/dish-5.jpg";
 import dish2 from "@/assets/dish-2.jpg";
 import dish6 from "@/assets/dish-6.jpg";
 import dish3 from "@/assets/dish-3.jpg";
-import desert from "@/assets/desert.jpg";
+import desert from "@/assets/desert-delight.jpg";
 import vegSoup from "@/assets/veg-soup.jpg";
 import paneerLababdar from "@/assets/panner-lababdar.jpg";
 import creamyChickenWings from "@/assets/creamy-chicken-wings.jpg";
