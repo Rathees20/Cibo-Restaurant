@@ -23,7 +23,7 @@ const contactInfo = [
   {
     icon: Clock,
     label: "Hours",
-    value: "09:00 AM – 3:30 PM · 6:00 PM – 11:00 PM",
+    value: "12:00 PM – 03:00 AM ·",
   },
 ];
 
