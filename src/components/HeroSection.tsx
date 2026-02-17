@@ -64,7 +64,7 @@ const HeroSection = () => {
           transition={{ delay: 0.3, duration: 0.8 }}
           className="font-body text-sm md:text-base letter-spacing-widest uppercase text-primary mb-4"
         >
-          Premium Fine Dining · chennai
+          Premium Fine Dining · Salem
         </motion.p>
 
         <motion.h1
