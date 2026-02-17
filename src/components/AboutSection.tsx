@@ -69,22 +69,14 @@ const AboutSection = () => {
           >
             <p className="font-body text-lg md:text-xl leading-relaxed text-cream mb-6">
               <span className="italic">
-                India is not a single serving off a menu card — it's a melange
-                of culture & curries!
+                A great cuisine is more than food - it is a celebration of heritage, artistry, and bold flavors.
               </span>
             </p>
             <p className="font-body text-base md:text-lg leading-relaxed text-muted-foreground mb-6">
-              At Cibo, we have curated traditional mouthwatering dishes from
-              different parts of India — from the royal kitchens of Rajasthan to
-              the aromatic streets of Lucknow, from the spice-laden corridors
-              of Old Delhi to the coconut-kissed shores of Tamil Nadu.
+              At Cibo, we bring together iconic regional specialties inspired by regal traditions, vibrant marketplaces, and coastal influences. Every dish is thoughtfully crafted to honor its roots while delivering a refined dining experience.
             </p>
             <p className="font-body text-base md:text-lg leading-relaxed text-muted-foreground mb-8">
-              Our chefs keep authenticity intact by sourcing the finest
-              ingredients from their origins across India, ensuring every dish
-              tells a story of its homeland. Located in the heart of Salem, we
-              bring you an unmatched culinary journey with world-class quality
-              standards and a state-of-the-art kitchen.
+              Situated in Salem, Tamil Nadu, Cibo combines authenticity with modern excellence, offering impeccable quality, elegant ambience, and a cutting-edge culinary space.
             </p>
             <div className="gold-divider" />
           </motion.div>

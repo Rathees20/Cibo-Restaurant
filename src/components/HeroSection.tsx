@@ -64,7 +64,7 @@ const HeroSection = () => {
           transition={{ delay: 0.3, duration: 0.8 }}
           className="font-body text-sm md:text-base letter-spacing-widest uppercase text-primary mb-4"
         >
-          Premium Fine Dining · Salem
+          Elegant Dining · Salem
         </motion.p>
 
         <motion.h1
@@ -73,7 +73,7 @@ const HeroSection = () => {
           transition={{ delay: 0.5, duration: 0.8 }}
           className="font-display text-5xl md:text-7xl lg:text-8xl font-light text-foreground leading-tight mb-8"
         >
-          Exquisite Indian
+          Exquisite Culinary Experience
           <br />
           <span className="italic text-primary">Cuisine</span>
         </motion.h1>

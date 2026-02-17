@@ -48,7 +48,7 @@ const Navbar = () => {
           <img
             src={ciboLogo}
             alt="Cibo Restaurant Logo"
-            className="h-14 md:h-16 w-auto"
+            className="h-18 md:h-20 w-auto"
           />
         </button>
 
