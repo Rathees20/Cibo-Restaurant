@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 
-import dish4 from "@/assets/dish-4.jpg";
-import dish1 from "@/assets/dish-1.jpg";
-import dish5 from "@/assets/dish-5.jpg";
-import dish2 from "@/assets/dish-2.jpg";
-import dish6 from "@/assets/dish-6.jpg";
-import dish3 from "@/assets/dish-3.jpg";
+import dish4 from "@/assets/Icecream.jpg";
+import dish1 from "@/assets/Non Veg Soup.jpg";
+import dish5 from "@/assets/pad-thai-noodles.jpg";
+import dish2 from "@/assets/malai nasi goreng.jpg";
+import dish6 from "@/assets/korean kimichi salad.jpg";
+import dish3 from "@/assets/panner-lababdar.jpg";
 import desert from "@/assets/desert-delight.jpg";
 import vegSoup from "@/assets/veg-soup.jpg";
 import paneerLababdar from "@/assets/panner-lababdar.jpg";
@@ -18,27 +18,27 @@ const galleryImages = [
   // Existing 6 gallery images
   {
     src: dish4,
-    alt: "Traditional Indian Thali with assorted curries",
+    alt: "Classic Ice Cream Delight",
   },
   {
     src: dish1,
-    alt: "Paneer Saunfiya with golden saffron sauce",
+    alt: "Hot & Flavorful Non-Veg Soup",
   },
   {
     src: dish5,
-    alt: "Butter Naan fresh from the tandoor",
+    alt: "Authentic Pad Thai Noodles",
   },
   {
     src: dish2,
-    alt: "Fragrant Hyderabadi Biryani",
+    alt: "Malai Nasi Goreng – Creamy Fried Rice",
   },
   {
     src: dish6,
-    alt: "Crispy Masala Dosa with chutneys",
+    alt: "Traditional Korean Kimchi Salad",
   },
   {
     src: dish3,
-    alt: "Gulab Jamun in rose syrup",
+    alt: "Paneer Lababdar in Rich Tomato Gravy",
   },
 
   // New 6 special shots
@@ -106,9 +106,9 @@ const GallerySection = () => {
 
         {/* Gallery Slider Controls */}
         <div className="flex items-center justify-between mb-6">
-          <span className="font-body text-xs letter-spacing-widest uppercase text-muted-foreground">
+          {/* <span className="font-body text-xs letter-spacing-widest uppercase text-muted-foreground">
             Slide {page + 1} of {totalPages}
-          </span>
+          </span> */}
           <div className="flex gap-3">
             <button
               type="button"
