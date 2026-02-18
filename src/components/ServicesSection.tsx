@@ -65,7 +65,7 @@ const ServicesSection = () => {
     }, [api]);
 
     return (
-        <section id="services" className="py-12 px-6 md:py-20 md:px-12 lg:px-24 bg-background overflow-hidden">
+        <section id="services" className="pt-6 pb-10 px-6 md:py-20 md:px-12 lg:px-24 bg-background overflow-hidden">
             <div className="max-w-7xl mx-auto">
                 {/* Header */}
                 <motion.div
