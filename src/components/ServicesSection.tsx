@@ -65,7 +65,7 @@ const ServicesSection = () => {
     }, [api]);
 
     return (
-        <section id="services" className="section-padding bg-background overflow-hidden">
+        <section id="services" className="py-12 px-6 md:py-20 md:px-12 lg:px-24 bg-background overflow-hidden">
             <div className="max-w-7xl mx-auto">
                 {/* Header */}
                 <motion.div
@@ -73,7 +73,7 @@ const ServicesSection = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true, margin: "-100px" }}
                     transition={{ duration: 0.8 }}
-                    className="text-center mb-16"
+                    className="text-center mb-8 md:mb-10"
                 >
                     <p className="font-body text-sm letter-spacing-widest uppercase text-primary mb-4">
                         Exceptional Experiences
@@ -82,9 +82,9 @@ const ServicesSection = () => {
                         Our Services
                     </h2>
                     <div className="gold-divider-wide mx-auto mb-8" />
-                    <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto">
+                    {/* <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto">
                         From intimate dinners to grand celebrations, we offer a range of services designed to create memorable moments.
-                    </p>
+                    </p> */}
                 </motion.div>
 
                 {/* Services Carousel */}
@@ -107,36 +107,39 @@ const ServicesSection = () => {
                                     </div>
 
                                     {/* Content Side - Always Right */}
-                                    <div className="w-full lg:w-1/2 space-y-6 text-center lg:text-left">
-                                        <div className={`flex items-center gap-4 justify-center lg:justify-start`}>
+                                    {/* Content Side - Adjusted for Mobile */}
+                                    <div className="w-full lg:w-1/2 space-y-4 lg:space-y-6 text-left">
+                                        <div className="flex items-center gap-4 justify-start">
                                             <div className="p-3 bg-charcoal rounded-full border border-gold/30">
-                                                <service.icon className="w-6 h-6 text-gold" />
+                                                <service.icon className="w-5 h-5 lg:w-6 lg:h-6 text-gold" />
                                             </div>
-                                            <span className="font-body text-gold tracking-widest uppercase text-sm">
+                                            <span className="font-body text-gold tracking-widest uppercase text-xs lg:text-sm">
                                                 Premium Service
                                             </span>
                                         </div>
 
-                                        <h2 className="font-display text-3xl md:text-4xl lg:text-5xl text-foreground">
+                                        <h3 className="font-display text-2xl md:text-4xl lg:text-5xl text-foreground">
                                             {service.title}
-                                        </h2>
+                                        </h3>
 
-                                        <p className="font-body text-lg text-muted-foreground leading-relaxed">
+                                        <p className="font-body text-base lg:text-lg text-muted-foreground leading-relaxed">
                                             {service.description}
                                         </p>
 
-                                        <ul className="grid grid-cols-2 gap-4 pt-4">
-                                            {service.features.map((feature) => (
-                                                <li key={feature} className="flex items-center gap-2 text-foreground/80 font-body justify-center lg:justify-start">
-                                                    <div className="w-1.5 h-1.5 rounded-full bg-gold" />
-                                                    {feature}
+                                        <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-4 pt-4">
+                                            {service.features.map((feature, idx) => (
+                                                <li key={idx} className="flex items-center gap-2 text-foreground/80 font-body justify-start">
+                                                    <div className="w-1.5 h-1.5 rounded-full bg-gold shrink-0" />
+                                                    <span className="text-sm lg:text-base">{feature}</span>
                                                 </li>
                                             ))}
                                         </ul>
 
-                                        <button className="mt-6 px-8 py-3 border border-gold text-gold hover:bg-gold hover:text-black transition-all duration-300 font-body uppercase tracking-wider text-sm">
-                                            Inquire Now
-                                        </button>
+                                        <div className="pt-2">
+                                            <button className="px-6 py-2 lg:px-8 lg:py-3 border border-gold text-gold hover:bg-gold hover:text-black transition-all duration-300 font-body uppercase tracking-wider text-xs lg:text-sm">
+                                                Inquire Now
+                                            </button>
+                                        </div>
                                     </div>
                                 </div>
                             </CarouselItem>
