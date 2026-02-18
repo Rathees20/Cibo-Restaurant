@@ -1,11 +1,11 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 
-import dish4 from "@/assets/icecream.jpg";
-import dish1 from "@/assets/non-veg-soup.jpg";
+import dish4 from "@/assets/ice-cream-delight.jpg";
+import dish1 from "@/assets/spicy-non-veg-soup.jpg";
 import dish5 from "@/assets/pad-thai-noodles.jpg";
-import dish2 from "@/assets/malai-nasi-goreng.jpg";
-import dish6 from "@/assets/korean-kimichi-salad.jpg";
+import dish2 from "@/assets/malai-nasi-goreng-rice.jpg";
+import dish6 from "@/assets/kimchi-salad.jpg";
 import dish3 from "@/assets/panner-lababdar.jpg";
 import desert from "@/assets/desert-delight.jpg";
 import vegSoup from "@/assets/veg-soup.jpg";
